@@ -355,6 +355,8 @@ extern const NSTimeInterval XMPPStreamTimeoutNone;
 **/
 - (BOOL)isSecure;
 
+- (void)setIsSecure:(BOOL)flag;
+
 /**
  * Returns whether or not the server supports securing the connection via SSL/TLS.
  * 

@@ -140,7 +140,6 @@ enum XMPPStreamConfig
 	id userTag;
 }
 
-- (void)setIsSecure:(BOOL)flag;
 - (void)setIsAuthenticated:(BOOL)flag;
 - (void)continueSendIQ:(XMPPIQ *)iq withTag:(long)tag;
 - (void)continueSendMessage:(XMPPMessage *)message withTag:(long)tag;
